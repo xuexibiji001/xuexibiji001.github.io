@@ -110,12 +110,13 @@ export default defineConfig({
             return;
           }
           warn(warning);
-        }
-      },
-      assets: 'assetss',
+        },
+        assets: 'assetss',
     
         // 示例：在构建过程中生 成`page.html` 而不是 `page/index.html`。
         format: 'file'
+      },
+     
       
     },
     css: {
