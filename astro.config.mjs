@@ -30,9 +30,11 @@ const oklchToHex = (str) => {
 
 // https://astro.build/config1
 export default defineConfig({
-  site: "https://xuexibiji001.github.io/",
+  site: "https://xuexibiji001.github.io",
   base: "/",
   trailingSlash: "always",
+  output: 'static',
+  compressHTML :false,
   integrations: [
     tailwind(),
     swup({
@@ -109,7 +111,12 @@ export default defineConfig({
           }
           warn(warning);
         }
-      }
+      },
+      assets: 'assetss',
+    
+        // 示例：在构建过程中生 成`page.html` 而不是 `page/index.html`。
+        format: 'file'
+      
     },
     css: {
       preprocessorOptions: {
