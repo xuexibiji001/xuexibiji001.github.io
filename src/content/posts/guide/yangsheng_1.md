@@ -2,7 +2,7 @@
 title: 养生赛道做号一定不能太老实
 published: 2024-05-16
 description: "2024年这个赛道会从年头爆到年尾，未来的发展趋势也是不容小觑。如果你对养生赛道感兴趣，记得快点入场."
-image: "./cover.jpeg"
+image: "https://images.jiezi.cc/images/01.jpg"
 tags: ["视频号"]
 category: 视频号
 draft: false
